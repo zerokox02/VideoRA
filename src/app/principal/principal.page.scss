@@ -1,0 +1,40 @@
+.background-content {
+    --background: url('/assets/icon/.png') no-repeat center center fixed;
+    --background-size: cover;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .custom-card {
+    border-radius: 50px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-image {
+    max-width: 50%;
+    max-height: 50vh;
+    border-radius: 50px;
+
+  }
+  
+  .card-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .card-text {
+    text-align: center;
+    
+  }
+  

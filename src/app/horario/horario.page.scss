@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid var(--ion-color-primary-contrast);
+    padding: 8px;
+  }
+  
+  th.day {
+    background-color: var(--ion-color-primary);
+    color: var(--ion-color-primary-contrast);
+  }
+  
+  th.day:hover {
+    background-color: var(--ion-color-primary-tint);
+  }
+  
+  td:empty {
+    background-color: var(--ion-color-primary-shade);
+    color: var(--ion-color-primary-contrast);
+  }
+  ion-content {
+    --background: linear-gradient(45deg, #FF0000 25%, #FFFFFF 25%, #FFFFFF 75%, #FF0000 75%);
+    background-size: 50px 50px;
+  }

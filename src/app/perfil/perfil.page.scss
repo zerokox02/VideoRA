@@ -1,0 +1,42 @@
+.perfil-background {
+    background: linear-gradient(to bottom right, red 50%, white 50%);
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .custom-card {
+    border-radius: 50px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-image {
+    max-width: 50%;
+    max-height: 50vh;
+    border-radius: 50px;
+
+  }
+  
+  .card-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .card-text {
+    text-align: center;
+    
+  }
+  ion-content {
+    --background: linear-gradient(45deg, #FF0000 25%, #FFFFFF 25%, #FFFFFF 75%, #FF0000 75%);
+    background-size: 50px 50px;
+  }

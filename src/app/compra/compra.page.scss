@@ -1,0 +1,19 @@
+ion-content {
+    --background: linear-gradient(45deg, #FF0000 25%, #FFFFFF 25%, #FFFFFF 75%, #FF0000 75%);
+    background-size: 50px 50px;
+  }
+  ion-card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  ion-card-header {
+    font-weight: bold;
+  }
+  
+  ion-card-content {
+    margin-bottom: 10px;
+  }
+  

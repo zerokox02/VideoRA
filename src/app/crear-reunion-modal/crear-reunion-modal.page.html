@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Crear Reunión</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/reuniones">Cerrar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">Título</ion-label>
+    <ion-input [(ngModel)]="tituloReunion"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Fecha</ion-label>
+    <ion-datetime display-format="DD/MM/YYYY" [(ngModel)]="fechaReunion"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Hora</ion-label>
+    <ion-datetime display-format="h:mm A" picker-format="h:mm A" [(ngModel)]="horaReunion"></ion-datetime>
+  </ion-item>
+
+  <ion-button expand="block" routerLink="/reuniones">Crear Reunión</ion-button>
+</ion-content>

@@ -1,0 +1,48 @@
+ion-header {
+    ion-toolbar {
+      --background: #f7c5c5;
+      color: rgb(0, 0, 0);
+    }
+  }
+  
+  ion-content {
+    ion-list {
+      ion-item {
+        ion-label {
+          --color: #ff4d4f;
+        }
+  
+        ion-input {
+          --background: #fff;
+        }
+      }
+    }
+  
+    ion-button {
+      &.agregar-button {
+        --background: #ff4d4f;
+        --color: white;
+        margin-top: 20px;
+      }
+  
+      &.entregado-button {
+        --background: #000;
+        --color: white;
+        margin-top: 10px;
+      }
+    }
+  
+    .cerrar-button {
+      --background: #ff4d4f;
+      --color: white;
+  
+      &:hover {
+        --background: #000;
+      }
+    }
+  }
+  
+  ion-backdrop {
+    --background: rgba(255, 77, 79, 0.5);
+  }
+  
